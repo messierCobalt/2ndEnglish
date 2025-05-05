@@ -1,1 +1,1 @@
-# a cli hangman game
+# a CLI hangman game

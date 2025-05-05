@@ -1,1 +1,1 @@
-# an ultimate password manager
+# an ultimate CLI password manager

@@ -1,1 +1,1 @@
-# save your TIME... a task scheduler, toDoList, and reminders!
+# save your TIME... a task scheduler, toDoList, and reminders! (GUI)

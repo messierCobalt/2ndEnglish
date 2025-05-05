@@ -25,7 +25,9 @@ try:
 except FileNotFoundError:
     features = ["1. NOTHING HERE BUT US CHICKENS!"]
 
-msg = f"""{BLD}{GREEN}README.py from{RST} {BLUE}https://github.com/messierCobalt/secondEnglish{RST}
+title = f"{BLD}{GREEN}README.py from{RST} {BLUE}https://github.com/messierCobalt/secondEnglish{RST}"
+
+msg = f"""
 
 {BLD}{RED}HELLO ZEPP{RST}
 
@@ -34,7 +36,9 @@ msg = f"""{BLD}{GREEN}README.py from{RST} {BLUE}https://github.com/messierCobalt
 {BLD}{CYAN}CURRENT STATUS:{RST} {GREEN}IN BLUEPRINTS{RST}
 {BLD}{CYAN}THE VISION:{RST}
 {GREEN}{"\n".join(features)}{RST}
+"""
 
+goodBye = f"""
 {BLD}{CYAN}BY:{RST} {GREEN}Ray Cullen{RST} {BRIGHT_BLUE}@{RST} {BLUE}https://www.github.com/messierCobalt{RST}
 
 {BLD}{RED}GOOD LUCK!{RST}
@@ -45,6 +49,6 @@ showBar()
 time.sleep(0.5)
 clear()
 
-for char in msg:
-    time.sleep(random.uniform(0.0001, 0.05))
-    print(char, end="", flush=True)
+slowPrint(title, random.uniform(0.01, 0.05))
+slowPrint(msg, random.uniform(0.01, 0.005))
+slowPrint(goodBye, random.uniform(0.05, 0.005))

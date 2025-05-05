@@ -1,1 +1,1 @@
-# cli and gui chess game
+# cli chess game

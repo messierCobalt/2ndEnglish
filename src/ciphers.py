@@ -1,1 +1,1 @@
-# kinda a game... ciphers, encryption... have fun!
+# kinda a game... ciphers, encryption... have fun! (CLI)

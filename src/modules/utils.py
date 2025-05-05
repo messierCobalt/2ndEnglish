@@ -1,4 +1,4 @@
-import os, sys, time
+import os, sys, time, random
 
 # ANSI codes
 RST = "\033[0m" # Reset
@@ -80,6 +80,9 @@ cmdRegistry = {
     "QUIT": close
 }
 
+# def append_cR(appendCmd, appendFunc):
+#     global cmdRegistry
+    
 def showBar(totalSteps=20, delay=0.08):
     for i in range(totalSteps + 1):
         bar = "█" * i + "-" * (totalSteps - i)
@@ -92,3 +95,8 @@ def chkcmd(cmd):
     for key, value in cmdRegistry.items():
         if cmd.upper() in key:
             return value
+        
+def slowPrint(text, minT=0.01, maxT=0.05):
+    for char in text:
+        time.sleep(random.uniform(minT, maxT))
+        print(char, end="", flush=True)

@@ -1,1 +1,0 @@
-# a mathematical graph plotting program

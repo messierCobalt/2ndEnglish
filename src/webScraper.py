@@ -1,1 +1,1 @@
-# don't waste your time scrapping the web yourself!
+# don't waste your time scrapping the web yourself! (CLI)

@@ -1,1 +1,1 @@
-# morse encoder/decoder
+# CLI morse encoder/decoder

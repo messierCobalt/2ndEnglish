@@ -1,1 +1,1 @@
-# a ultimate calculator program
+# a ultimate CLI calculator program
