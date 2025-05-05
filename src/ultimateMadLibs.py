@@ -1,1 +1,1 @@
-# just what it says
+# just what it says (CLI)
