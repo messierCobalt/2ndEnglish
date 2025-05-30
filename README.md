@@ -20,14 +20,12 @@ Listen carefully, if you will. There's a *vision* :
 - I JUST WRITE THESE CODES IN INTEND OF LEARNING PYTHON AND SHARPING MY SKILLS.
 - NO AI WAS HURT WHILE MAKING THIS REPO.
 - IF YOU HAVE ANY TROUBLE. PLEASE REPORT, I MEAN ISSUE. 
-- **AND HEY... DON'T FORGET TO DEBUG YOUR LIFE, WHEN NEEDED.**
+- **AND HEY**... DON'T FORGET TO DEBUG YOUR LIFE, WHEN NEEDED.
 
 ---
 
 **Directed by**
-**SAW (2004).srt** & **My Intuition**
-
----
+SAW (2004).srt & My Intuition
 
 **Written by**
-**Ray Cullen—messierCobalt**
+Ray Cullen—messierCobalt
